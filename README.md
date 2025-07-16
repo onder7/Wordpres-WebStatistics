@@ -1,6 +1,6 @@
 # WordPress Web Statistics
 
-## Türkçe README
+## Türkçe
 
 ### Genel Bakış
 <img width="385" height="228" alt="image" src="https://github.com/user-attachments/assets/32606def-1394-4831-944b-b19f17a1891e" />
@@ -44,7 +44,7 @@ Bu proje MIT Lisansı altında lisanslanmıştır.
 
 ---
 
-## English README
+## English 
 
 ### Overview
 <img width="385" height="228" alt="image" src="https://github.com/user-attachments/assets/32606def-1394-4831-944b-b19f17a1891e" />
