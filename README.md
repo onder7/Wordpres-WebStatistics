@@ -1,8 +1,96 @@
-# Wordpres-WebStatistics
+# WordPress Web Statistics
 
+## Türkçe README
+
+### Genel Bakış
 <img width="385" height="228" alt="image" src="https://github.com/user-attachments/assets/32606def-1394-4831-944b-b19f17a1891e" />
 
 <img width="568" height="303" alt="image" src="https://github.com/user-attachments/assets/5e15fce5-4f90-4ca2-a486-3b95496bf181" />
+Bu proje, WordPress siteniz için basit ama etkili bir web istatistikleri aracıdır. Ziyaretçilerinizin IP adreslerini, ziyaret ettikleri sayfaları, tarayıcı bilgilerini ve ziyaret zamanlarını kaydederek sitenizin trafiği hakkında değerli bilgiler edinmenizi sağlar.
+
+### Özellikler
+
+* **Ziyaretçi Takibi:** Her ziyaretçinin IP adresi, ziyaret ettiği sayfa, kullandığı tarayıcı ve ziyaret zamanı otomatik olarak kaydedilir.
+* **Basit Kullanım:** Kolay entegrasyon ve minimum yapılandırma gerektirir.
+* **Veritabanı Entegrasyonu:** Tüm veriler WordPress veritabanınızda `wp_web_statistics` adlı özel bir tabloya kaydedilir.
+* **Yönetici Paneli Erişimi:** İstatistikleri doğrudan WordPress yönetici panelinizden görüntüleyebilirsiniz. (Bu özellik henüz geliştirme aşamasındadır veya README'de belirtilmelidir.)
+
+### Kurulum
+
+1.  **Dosyaları Yükleyin:** Proje dosyalarını WordPress kurulumunuzun `wp-content/plugins/` dizini altına `wordpress-web-statistics` adında yeni bir klasöre yükleyin.
+2.  **Eklentiyi Etkinleştirin:** WordPress yönetici panelinizden "Eklentiler" sayfasına gidin ve "WordPress Web Statistics" eklentisini etkinleştirin.
+3.  **Veritabanı Tablosu Oluşturma:** Eklenti etkinleştirildiğinde, veritabanınızda `wp_web_statistics` adlı bir tablo otomatik olarak oluşturulacaktır. Bu tablo, ziyaretçi verilerini depolamak için kullanılır.
+
+### Nasıl Kullanılır?
+
+Eklenti etkinleştirildikten sonra, sitenizi ziyaret eden her kullanıcı için otomatik olarak veri kaydetmeye başlayacaktır. İstatistikleri WordPress yönetici panelinizdeki özel bir bölümden görüntüleyebilirsiniz. (Bu bölümün adını ve konumunu belirtmek iyi olacaktır, örneğin "Ayarlar -> Web İstatistikleri" gibi.)
+
+### Geliştirme
+
+* **Veritabanı Şeması:**
+    * `id`: INT (Primary Key, Auto Increment)
+    * `ip_address`: VARCHAR(45)
+    * `page_visited`: VARCHAR(255)
+    * `browser_info`: VARCHAR(255)
+    * `timestamp`: DATETIME
+
+### Katkıda Bulunma
+
+Bu projeye katkıda bulunmaktan çekinmeyin! Hata raporları, yeni özellik önerileri veya kod katkıları memnuniyetle karşılanır.
+
+### Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır.
+
+---
+
+## English README
+
+### Overview
+<img width="385" height="228" alt="image" src="https://github.com/user-attachments/assets/32606def-1394-4831-944b-b19f17a1891e" />
+
+<img width="568" height="303" alt="image" src="https://github.com/user-attachments/assets/5e15fce5-4f90-4ca2-a486-3b95496bf181" />
+This project is a simple yet effective web statistics tool for your WordPress site. It allows you to gain valuable insights into your website's traffic by recording visitor IP addresses, pages visited, browser information, and visit timestamps.
+
+### Features
+
+* **Visitor Tracking:** Automatically records each visitor's IP address, the page they visited, their browser information, and the timestamp of their visit.
+* **Easy to Use:** Requires minimal configuration and is easy to integrate.
+* **Database Integration:** All data is stored in a custom table named `wp_web_statistics` within your WordPress database.
+* **Admin Panel Access:** View your statistics directly from your WordPress admin panel. (This feature is currently under development or should be specified in the README.)
+
+### Installation
+
+1.  **Upload Files:** Upload the project files to a new folder named `wordpress-web-statistics` inside your WordPress installation's `wp-content/plugins/` directory.
+2.  **Activate Plugin:** Go to the "Plugins" page in your WordPress admin panel and activate the "WordPress Web Statistics" plugin.
+3.  **Database Table Creation:** Upon activation, a table named `wp_web_statistics` will be automatically created in your database. This table is used to store visitor data.
+
+### How to Use
+
+Once the plugin is activated, it will automatically start recording data for every user visiting your site. You can view the statistics from a dedicated section in your WordPress admin panel. (It would be good to specify the name and location of this section, e.g., "Settings -> Web Statistics.")
+
+### Development
+
+* **Database Schema:**
+    * `id`: INT (Primary Key, Auto Increment)
+    * `ip_address`: VARCHAR(45)
+    * `page_visited`: VARCHAR(255)
+    * `browser_info`: VARCHAR(255)
+    * `timestamp`: DATETIME
+
+### Contributing
+
+Feel free to contribute to this project! Bug reports, feature suggestions, or code contributions are welcome.
+
+### License
+
+This project is licensed under the MIT License.
+
+---
+
+I hope these README files are helpful for your project! Let me know if you'd like any adjustments or further assistance.
+
+
 
 WordPress WebStatistics entegrasyonu kullanım talimatları:
 
