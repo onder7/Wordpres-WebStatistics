@@ -6,6 +6,7 @@
 <img width="385" height="228" alt="image" src="https://github.com/user-attachments/assets/32606def-1394-4831-944b-b19f17a1891e" />
 
 <img width="568" height="303" alt="image" src="https://github.com/user-attachments/assets/5e15fce5-4f90-4ca2-a486-3b95496bf181" />
+
 Bu proje, WordPress siteniz için basit ama etkili bir web istatistikleri aracıdır. Ziyaretçilerinizin IP adreslerini, ziyaret ettikleri sayfaları, tarayıcı bilgilerini ve ziyaret zamanlarını kaydederek sitenizin trafiği hakkında değerli bilgiler edinmenizi sağlar.
 
 ### Özellikler
@@ -50,6 +51,7 @@ Bu proje MIT Lisansı altında lisanslanmıştır.
 <img width="385" height="228" alt="image" src="https://github.com/user-attachments/assets/32606def-1394-4831-944b-b19f17a1891e" />
 
 <img width="568" height="303" alt="image" src="https://github.com/user-attachments/assets/5e15fce5-4f90-4ca2-a486-3b95496bf181" />
+
 This project is a simple yet effective web statistics tool for your WordPress site. It allows you to gain valuable insights into your website's traffic by recording visitor IP addresses, pages visited, browser information, and visit timestamps.
 
 ### Features
